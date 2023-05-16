@@ -1,0 +1,367 @@
+16/05/2023 06:21:37 Network status waiting
+16/05/2023 06:21:37 Network status waiting
+16/05/2023 06:21:37 Network status waiting
+16/05/2023 06:21:37 Network status waiting
+16/05/2023 06:21:57 Network status working
+16/05/2023 06:21:57 Network status working
+16/05/2023 06:21:57 Network status working
+16/05/2023 06:21:57 Network status working
+16/05/2023 06:21:57 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	14	0	
+
+16/05/2023 06:21:57 Network status waiting
+16/05/2023 06:21:57 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	4	0	
+
+16/05/2023 06:21:57 Network status waiting
+16/05/2023 06:21:57 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:21:57 Network status waiting
+16/05/2023 06:21:57 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:21:57 Network status waiting
+16/05/2023 06:21:57 Network status working
+16/05/2023 06:21:57 Network status waiting
+16/05/2023 06:21:57 Network status working
+16/05/2023 06:21:57 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	6	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:58 Network status waiting
+16/05/2023 06:21:58 Network status working
+16/05/2023 06:21:59 Network status waiting
+16/05/2023 06:21:59 Network status working
+16/05/2023 06:21:59 Network status waiting
+16/05/2023 06:21:59 Network status working
+16/05/2023 06:21:59 Network status waiting
+16/05/2023 06:21:59 Network status working
+16/05/2023 06:21:59 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	6	2	
+C	3	6	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:21:59 Network status waiting
+16/05/2023 06:21:59 Network status working
+16/05/2023 06:21:59 Network status waiting
+16/05/2023 06:21:59 Network status working
+16/05/2023 06:22:00 Network status waiting
+16/05/2023 06:28:49 Network status waiting
+16/05/2023 06:28:49 Network status waiting
+16/05/2023 06:28:49 Network status waiting
+16/05/2023 06:28:49 Network status waiting
+16/05/2023 06:29:25 Network status waiting
+16/05/2023 06:29:25 Network status waiting
+16/05/2023 06:29:25 Network status waiting
+16/05/2023 06:29:25 Network status waiting
+16/05/2023 06:32:43 Network status waiting
+16/05/2023 06:32:43 Network status waiting
+16/05/2023 06:32:43 Network status waiting
+16/05/2023 06:32:43 Network status waiting
+16/05/2023 06:37:57 Network status waiting
+16/05/2023 06:37:57 Network status waiting
+16/05/2023 06:37:57 Network status waiting
+16/05/2023 06:37:57 Network status waiting
+16/05/2023 06:38:28 Network status waiting
+16/05/2023 06:38:28 Network status waiting
+16/05/2023 06:38:28 Network status waiting
+16/05/2023 06:38:28 Network status waiting
+16/05/2023 06:40:46 Network status waiting
+16/05/2023 06:40:46 Network status waiting
+16/05/2023 06:40:46 Network status waiting
+16/05/2023 06:40:46 Network status waiting
+16/05/2023 06:40:48 Network status working
+16/05/2023 06:40:48 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	14	0	
+
+16/05/2023 06:40:48 Network status waiting
+16/05/2023 06:40:49 Network status working
+16/05/2023 06:40:49 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	4	0	
+
+16/05/2023 06:40:49 Network status waiting
+16/05/2023 06:40:49 Network status working
+16/05/2023 06:40:49 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:40:49 Network status waiting
+16/05/2023 06:49:06 Network status waiting
+16/05/2023 06:49:06 Network status waiting
+16/05/2023 06:49:06 Network status waiting
+16/05/2023 06:49:06 Network status waiting
+16/05/2023 06:49:46 Network status waiting
+16/05/2023 06:49:46 Network status waiting
+16/05/2023 06:49:46 Network status waiting
+16/05/2023 06:49:46 Network status waiting
+16/05/2023 06:50:50 Network status waiting
+16/05/2023 06:50:50 Network status waiting
+16/05/2023 06:50:50 Network status waiting
+16/05/2023 06:50:50 Network status waiting
+16/05/2023 06:51:37 Network status waiting
+16/05/2023 06:51:37 Network status waiting
+16/05/2023 06:51:37 Network status waiting
+16/05/2023 06:51:37 Network status waiting
+16/05/2023 06:51:47 Network status working
+16/05/2023 06:51:47 Network status working
+16/05/2023 06:51:47 Network status working
+16/05/2023 06:51:47 Network status working
+16/05/2023 06:51:47 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	14	0	
+
+16/05/2023 06:51:47 Network status waiting
+16/05/2023 06:51:47 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	14	0	
+
+16/05/2023 06:51:47 Network status waiting
+16/05/2023 06:51:47 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:51:47 Network status waiting
+16/05/2023 06:51:47 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:51:47 Network status waiting
+16/05/2023 06:51:48 Network status working
+16/05/2023 06:51:48 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	6	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:51:48 Network status waiting
+16/05/2023 06:51:48 Network status working
+16/05/2023 06:51:48 Network status waiting
+16/05/2023 06:51:49 Network status working
+16/05/2023 06:51:49 Network status waiting
+16/05/2023 06:51:49 Network status working
+16/05/2023 06:51:49 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	6	2	
+C	3	6	0	4	
+D	1	2	4	0	
+
+16/05/2023 06:51:49 Network status waiting
+16/05/2023 06:51:50 Network status working
+16/05/2023 06:51:50 Network status waiting
+16/05/2023 06:51:50 Network status working
+16/05/2023 06:51:50 Network status waiting
+16/05/2023 06:52:21 Network status waiting
+16/05/2023 06:52:21 Network status waiting
+16/05/2023 06:52:21 Network status waiting
+16/05/2023 06:52:21 Network status waiting
+16/05/2023 06:54:36 Network status waiting
+16/05/2023 06:54:36 Network status waiting
+16/05/2023 06:54:36 Network status waiting
+16/05/2023 06:54:36 Network status waiting
+16/05/2023 06:55:04 Network status waiting
+16/05/2023 06:55:04 Network status waiting
+16/05/2023 06:55:04 Network status waiting
+16/05/2023 06:55:04 Network status waiting
+16/05/2023 06:58:03 Network status waiting
+16/05/2023 06:58:03 Network status waiting
+16/05/2023 06:58:03 Network status waiting
+16/05/2023 06:58:03 Network status waiting
+16/05/2023 06:59:28 Network status waiting
+16/05/2023 06:59:28 Network status waiting
+16/05/2023 06:59:28 Network status waiting
+16/05/2023 06:59:28 Network status waiting
+16/05/2023 06:59:43 Network status waiting
+16/05/2023 06:59:43 Network status waiting
+16/05/2023 06:59:43 Network status waiting
+16/05/2023 06:59:43 Network status waiting
+16/05/2023 07:00:18 Network status waiting
+16/05/2023 07:00:18 Network status waiting
+16/05/2023 07:00:18 Network status waiting
+16/05/2023 07:00:18 Network status waiting
+16/05/2023 07:00:28 Network status waiting
+16/05/2023 07:00:28 Network status waiting
+16/05/2023 07:00:28 Network status waiting
+16/05/2023 07:00:28 Network status waiting
+16/05/2023 07:00:35 Network status waiting
+16/05/2023 07:00:35 Network status waiting
+16/05/2023 07:00:35 Network status waiting
+16/05/2023 07:00:35 Network status waiting
+16/05/2023 07:00:47 Network status waiting
+16/05/2023 07:00:47 Network status waiting
+16/05/2023 07:00:47 Network status waiting
+16/05/2023 07:00:47 Network status waiting
+16/05/2023 07:01:00 Network status waiting
+16/05/2023 07:01:00 Network status waiting
+16/05/2023 07:01:00 Network status waiting
+16/05/2023 07:01:00 Network status waiting
+16/05/2023 07:01:18 Network status working
+16/05/2023 07:01:18 Network status working
+16/05/2023 07:01:18 Network status working
+16/05/2023 07:01:18 Network status working
+16/05/2023 07:01:18 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	-1	0	-1	2	
+C	3	-1	0	14	
+D	1	2	14	0	
+
+16/05/2023 07:01:18 Network status waiting
+16/05/2023 07:01:18 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	14	0	
+
+16/05/2023 07:01:18 Network status waiting
+16/05/2023 07:01:18 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	4	0	
+
+16/05/2023 07:01:18 Network status waiting
+16/05/2023 07:01:18 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	6	0	4	
+D	1	2	4	0	
+
+16/05/2023 07:01:18 Network status waiting
+16/05/2023 07:01:19 Network status working
+16/05/2023 07:01:19 Network status waiting
+16/05/2023 07:01:20 Network status working
+16/05/2023 07:01:20 Network status waiting
+16/05/2023 07:01:20 Network status working
+16/05/2023 07:01:20 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	6	2	
+C	3	6	0	4	
+D	1	2	4	0	
+
+16/05/2023 07:01:20 Network status waiting
+16/05/2023 07:01:20 Network status working
+16/05/2023 07:01:20 Network status waiting
+16/05/2023 07:02:42 Network status waiting
+16/05/2023 07:02:42 Network status waiting
+16/05/2023 07:02:42 Network status waiting
+16/05/2023 07:02:42 Network status waiting
+16/05/2023 07:02:48 Network status working
+16/05/2023 07:02:48 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	14	0	
+
+16/05/2023 07:02:48 Network status waiting
+16/05/2023 07:02:49 Network status working
+16/05/2023 07:02:49 Network status waiting
+16/05/2023 07:02:50 Network status working
+16/05/2023 07:02:50 Network status working
+16/05/2023 07:02:50 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	-1	0	14	
+D	1	2	4	0	
+
+16/05/2023 07:02:50 Network status waiting
+16/05/2023 07:02:50 Network update
+ 	A	B	C	D
+A	0	-1	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 07:02:50 Network status waiting
+16/05/2023 07:02:51 Network status working
+16/05/2023 07:02:51 Network status working
+16/05/2023 07:02:51 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	16	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 07:02:51 Network status waiting
+16/05/2023 07:02:51 Network update
+ 	A	B	C	D
+A	0	3	3	1	
+B	3	0	6	2	
+C	3	16	0	4	
+D	1	2	4	0	
+
+16/05/2023 07:02:51 Network status waiting
+16/05/2023 07:02:52 Network status working
+16/05/2023 07:02:52 Network status waiting
+16/05/2023 07:05:29 Network status waiting
+16/05/2023 07:05:29 Network status waiting
+16/05/2023 07:05:29 Network status waiting
+16/05/2023 07:05:29 Network status waiting
