@@ -8,10 +8,8 @@ import javax.swing.BorderFactory;
 import javax.swing.JPanel;
 import javax.swing.border.Border;
 
-class VdPanel extends JPanel{
-
+class VdPanel extends JPanel {
     private Network network;
-    
     private ArrayList <Node> nodes;
     
     public VdPanel(Network n) {
@@ -22,6 +20,7 @@ class VdPanel extends JPanel{
         this.setBorder(border1);
         nodes = network.getNodes();
     }
+    
     public void changeVisibility(Boolean vis){
         setVisible(vis);
     }
@@ -45,9 +44,4 @@ class VdPanel extends JPanel{
         super.paintComponent(g);
         drawDV (g);
     }
-    
-    
-    
-    
-    
 }

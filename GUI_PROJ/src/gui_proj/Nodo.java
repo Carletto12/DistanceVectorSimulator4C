@@ -2,8 +2,6 @@ package gui_proj;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 
 class Nodo {
     String nome;

@@ -1,7 +1,5 @@
 package gui_proj;
 
-import java.awt.Color;
-import java.awt.Container;
 import java.awt.Rectangle;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
@@ -9,24 +7,22 @@ import javax.swing.JPanel;
 
 public class MainPanel extends JPanel implements ComponentListener{
     private Log log;
-    private BoxPanel toolbar; //bottoni per aprire app
-    static SrPanel schemaDiRete;  //schema di rete 
-    static MaPanel matriceDiAdiacenza;  //
+    private BoxPanel toolbar; 
+    static SrPanel schemaDiRete;
+    static MaPanel matriceDiAdiacenza;  
     static VdPanel vettoriDistanza;
     
     private Network network;
     
-    MainPanel(Rectangle bounds /* , Network network*/) {
+    MainPanel(Rectangle bounds) {
         super();
         log = new Log ();
         network = new Network ();
         
-        
         schemaDiRete = new SrPanel(network);             
         matriceDiAdiacenza = new MaPanel(network);             
         vettoriDistanza = new VdPanel(network);       
-        toolbar = new BoxPanel(network); 
-        
+        toolbar = new BoxPanel(network);
         
         setLayout(null);
         setBounds(bounds);
@@ -58,12 +54,12 @@ public class MainPanel extends JPanel implements ComponentListener{
     }
 
     @Override
-    public void componentMoved(ComponentEvent ce) {    }
+    public void componentMoved(ComponentEvent ce) {}
 
     @Override
-    public void componentShown(ComponentEvent ce) {    }
+    public void componentShown(ComponentEvent ce) {}
 
     @Override
-    public void componentHidden(ComponentEvent ce) {    }
+    public void componentHidden(ComponentEvent ce) {}
     
 }

@@ -21,10 +21,6 @@ public class Node extends Thread {
 
     @Override
     public void run() {
-        
-        //per non far partire tutti i nodi insieme
-        //attendo un tempo causale tra 1 e 4 secondi
-
         while(true){
             boolean posso = true;
             while (!network.canProceed()){
@@ -36,13 +32,10 @@ public class Node extends Thread {
             network.lock();
             network.log.update("working\n", "Network status");
             System.out.println ("");
-            //chiedi a tutti i vicini il loro DV
-            //li ricevo gia' aumentati del costo per arrivarci
             ArrayList<Vector> dvv=network.getDVV(id);
 
             boolean changed = false;
             for(Vector dv: dvv) {
-                //aggiorna il tuo DV
                 for(int i=0;i<dv.size();i++) {
                     if( (DV.get(i).archCost > dv.get(i).archCost ||
                         DV.get(i).archCost < 0) && 
@@ -53,14 +46,13 @@ public class Node extends Thread {
                 }
             }
             if(changed) {
-                //invia il tuo DV a tutti i vicini
                 network.sendDV(id,DV);
             }
             
         }
     }
     private void attendi(double n) {
-        attendi( (int)n );
+        attendi((int) n);
     }
     private void attendi(int n) {
         try {

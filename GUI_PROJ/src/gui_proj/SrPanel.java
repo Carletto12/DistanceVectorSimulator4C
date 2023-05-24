@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package gui_proj;
 
 import java.awt.Color;
@@ -12,7 +8,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import javax.swing.BorderFactory;
@@ -25,13 +23,18 @@ class SrPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
     ArrayList<Nodo> nodi;
     private int x, y;
     private Nodo selectedNode;
-    //private static Network network;
     
     public SrPanel(Network n) {
-        nodi = new ArrayList <>();
         network = n;
+        ma = network.getMA();
+        nodi = new ArrayList <>();
+        for (int i = 0; i<ma.length; i++){
+            char c = (char)('A'+i);
+            Nodo x = new Nodo (c+"",0, 0, i);
+            nodi.add(x);
+        }
+        tryLoadNodePos("nodePos.csv");
         setBounds(550, 250, 550, 1000);
-        //setBackground(Color.red);
         setVisible(true);
         selectedNode=null;
         addMouseListener(this);
@@ -39,16 +42,29 @@ class SrPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
         
         String b = "SchemaRete";
         Border border1 = BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.BLUE , 2), b);
-        this.setBorder(border1);
-        
-        ma = network.getMA();
-        for (int i = 0; i<ma.length; i++){
-                char c = (char)('A'+i);
-                Nodo x= new Nodo (c+"", (i*50)+(100*i)+100, (i*50)+100, i);
-                nodi.add(x);
-            
+        this.setBorder(border1); 
+    }
+    
+    private void tryLoadNodePos(String fileName) {
+        try {
+            FileReader fr = new FileReader(fileName);
+            BufferedReader br = new BufferedReader(fr);
+            int n;
+            String riga = br.readLine();
+            n = Integer.parseInt(riga);
+            for(int i=0;i<n;i++) {
+                riga = br.readLine();
+                String[] p = riga.split(",");
+                int x= Integer.parseInt(p[0].trim());
+                int y= Integer.parseInt(p[1].trim());
+                nodi.get(i).x=x;
+                nodi.get(i).y=y;
+            }
+        }catch(Exception e) {
+            System.out.println(e.toString());
         }
     }
+    
     public void changeVisibility(Boolean vis){
         setVisible(vis);
     }
@@ -64,7 +80,6 @@ class SrPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
     void disegna(Graphics g) {
         Font font = new Font("Arial", Font.PLAIN, Nodo.R*3/4);
         g.setFont(font);
-        //disegna archi
         for(int i=0;i<ma.length;i++)
             for(int j=i+1;j<ma[i].length; j++)
                 if(ma[i][j]>-1)
@@ -72,10 +87,11 @@ class SrPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
         
         font = new Font("Arial", Font.PLAIN, Nodo.R);
         g.setFont(font);
-        //disegna nodi
+        
         for(Nodo nodo : nodi)
             nodo.disegna(g);
     }
+    
     private void saveNodePos(String fileName) {
         try {
             FileWriter fw = new FileWriter(fileName);

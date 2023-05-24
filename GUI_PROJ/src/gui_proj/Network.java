@@ -5,9 +5,9 @@ import java.io.FileReader;
 import java.util.ArrayList;
 
 public class Network {
-    private ArrayList<Node> nodes; // list of nodes
-    private int[][] ma; // adiacence matrix
-    int NODE_QUANTITY; // total nodes in network
+    private ArrayList<Node> nodes; 
+    private int[][] ma; 
+    int NODE_QUANTITY;
     int nma [][]; 
     private String csvFileName;
     private boolean daiOra;
@@ -17,15 +17,16 @@ public class Network {
     private void init() {
         lock();
         nodes = new ArrayList<>();
-        initMA(); //fill matrix from csv file                                                 
+        initMA();                                               
         initNodes();
         nma = new int [NODE_QUANTITY][NODE_QUANTITY];
+        
         for (int i = 0; i<NODE_QUANTITY; i++)
             for(int j=0;j<NODE_QUANTITY;j++)
                 nma[i][j]=ma[i][j];
+        
         printMatrix();
         
-        //faccio partire la simulazione dei nodi
         for (Node n : nodes)
             n.start();
     }
@@ -89,23 +90,18 @@ public class Network {
         System.out.println("Nodo "+(char)(id+'A')+" invia il suo DV: "+dv);
         for (int i = 0; i < nma[id].length; i++)
             nma[id][i] = dv.get(i).archCost;
-        //stampo perche' e' successo qualcosa
         status = printMatrix();
         MainPanel.matriceDiAdiacenza.repaint();
         log.update("" + printMatrix(), "Network update\n");
         MainPanel.vettoriDistanza.repaint();
     }
+    
     public synchronized ArrayList<Vector> getDVV(int id) {
         ArrayList<Vector> dvv = new ArrayList<>();
-        //scorre i collegamenti diretti del nodo "id"
         for (int i = 0; i < ma[id].length; i++) {
             if(ma[id][i] < 1)
                 continue;
-            //se c'e' collegamento diretto il nodo
-            // "i" invia il suo DV ad "id"
             Vector dv = new Vector();
-            //aggiungo il costo del collegamento diretto
-            //al nodo "i" dal nodo "id"
             for (int j = 0; j < nma[id].length; j++) {
                 int costo_aggiuto = nma[i][j]+nma[id][i];
                 if(nma[i][j]<0 || nma[id][i]<0)
@@ -118,10 +114,7 @@ public class Network {
         }
         return dvv;
     }
-
-
     
-
     public String printMatrix (){
         String s = "";
         for (int i = 0; i<nma.length; i++){
@@ -148,7 +141,6 @@ public class Network {
         for (Node n : nodes){
             nl.add(n);
         }
-        
         return nl;
     }
 }

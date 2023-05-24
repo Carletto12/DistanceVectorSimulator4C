@@ -1,18 +1,16 @@
 package gui_proj;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-
 
 class Log {
     File log;
+    
     class Obj {
         String timeStamp;
         String title, description;
@@ -29,30 +27,22 @@ class Log {
     }
     
     Log (){
-       log = new File ("log.txt"); 
+        log = new File ("log.txt");
+        try{
+            PrintWriter writer = new PrintWriter("log.txt");
+            writer.print("");
+            writer.close(); 
+        } catch (Exception e){
+            System.out.println ("Qualcosa è andato storto");
+        }
     }
     
-    
-    
     public void update (String s, String t){
-        /*try {
-            FileWriter myWriter = new FileWriter("log.txt");
-            myWriter.append(j.toString());
-            myWriter.close();
-            System.out.println("Successfully wrote to the file.");
-        } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
-        }*/
         Obj j = new Obj (t, s);
         try{
             Files.write(Paths.get("log.txt"), j.toString().getBytes(), StandardOpenOption.APPEND);
-
         } catch (IOException  e){
-            
-        }
-         
+            System.out.println ("Failed to write on file");
+        } 
     }
-    
-   
 }
