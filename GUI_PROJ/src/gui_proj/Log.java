@@ -27,9 +27,9 @@ class Log {
     }
     
     Log (){
-        log = new File ("log.txt");
+        log = new File ("log.csv");
         try{
-            PrintWriter writer = new PrintWriter("log.txt");
+            PrintWriter writer = new PrintWriter("log.csv");
             writer.print("");
             writer.close(); 
         } catch (Exception e){
