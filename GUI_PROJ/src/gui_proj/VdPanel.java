@@ -10,23 +10,23 @@ import javax.swing.border.Border;
 
 class VdPanel extends JPanel {
     private Network network;
-    private ArrayList <Node> nodes;
-    
+    private ArrayList<Node> nodes;
+
     public VdPanel(Network n) {
         network = n;
         setVisible(false);
         String b = "VectorDistance";
-        Border border1 = BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.RED , 2), b);
+        Border border1 = BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.RED, 2), b);
         this.setBorder(border1);
         nodes = network.getNodes();
     }
-    
-    public void changeVisibility(Boolean vis){
+
+    public void changeVisibility(Boolean vis) {
         setVisible(vis);
     }
-    
-    public void drawDV (Graphics g){
-        Font f = new Font ("Arial", Font.BOLD, 18);
+
+    public void drawDV(Graphics g) {
+        Font f = new Font("Arial", Font.BOLD, 18);
         g.setFont(f);
         int w = 100;
         int [][] m = network.nma;
@@ -37,11 +37,12 @@ class VdPanel extends JPanel {
                 g.drawString (p+"->"+ d + ":" + m[i][j] , 150+100*j, 300+50*i);
             }
         }
+        
     }
-    
-    @Override 
-    public void paintComponent (Graphics g){
+
+    @Override
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        drawDV (g);
+        drawDV(g);
     }
 }
